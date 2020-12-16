@@ -1,7 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+
 import './Navbar.css';
 
-import logo from '../img/twitter-logo.png';
+import logo from '../img/Twitter-Logo.png';
 import home from '../img/home.png';
 import email from '../img/email.png';
 import bell from '../img/bell.png';

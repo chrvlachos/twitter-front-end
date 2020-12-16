@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Axios from 'axios';
 
@@ -18,14 +18,12 @@ import {FaRetweet} from 'react-icons/fa';
 import {FaRegHeart} from 'react-icons/fa';
 import {BsUpload} from 'react-icons/bs';
 
-
-
 function App() {
 
   const [Data, setData] = useState([]);
   
   const getData = () => {
-    Axios.get("http://localhost:4000/users")
+    Axios.get("https://twitter-clone-wbs.herokuapp.com/users")
     .then((res) => {console.log(res);
       setData(res.data)
     }
@@ -43,15 +41,7 @@ function App() {
         {<Navbar/>}
         {/*<Mainarea/>*/}
 
-        <div className="Sidebar_Area">
-          <div className="Twitter">
-          <AiOutlineTwitter color='#1DA1F2' fontSize="2.3rem" />
-          </div>
-          <div className="Icons">
-            <BiHomeCircle color="#1DA1F2" fontSize="2.3rem" />
-          </div>
-        </div>
-  
+        
 
 {/* MAIN AREA PART */}
 
