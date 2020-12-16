@@ -3,16 +3,55 @@
     flex-direction: column;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 20vh;
+    max-width: 25vh;
+    min-width: 4vh;
 }
 .lrg-blue-tweet {
     background-color: #1DA1F2;
     color: white;
-    font-size: large;
+    font-size: 2vh;
+    font-weight: 700;
+    border-radius: 17px;
+    outline: none;
+    justify-content: middle;
+    width: 16vh;
+    height: 3.5vh;
+    border: none;
+    margin-left: 30%;
+}
+.lrg-blue-tweet:hover {
+    cursor: pointer;
+    background-color: #03a1d6;
+}
+.navigation {
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    list-style: none;
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 1.5vh;
 }
 
-.navigation {
-    list-style: none;
-    line-height: 1.25;
+.twitter-logo{
+    margin-left: 25%;
+    align-items: left;
+    object-fit: contain;
+    width: 3vh;  
+}
+.nav-icon {
+    width: 2vh;
+    object-fit: contain;
+    margin-right: 1vh;
+}
 
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:hover {
+    color: #1DA1F2;
+    background-color: #e3f4ff;
+    border-radius: 17px;
 }

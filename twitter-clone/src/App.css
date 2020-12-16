@@ -1,21 +1,9 @@
 .App {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.945);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: rgba(255, 255, 255, 0.945);
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.945);
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  margin: 0px auto;
+  min-height: 100vh;
 }

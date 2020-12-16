@@ -1,0 +1,22 @@
+.search-container {
+    display: flex;
+    min-width: 30vh;
+    max-height: 3vh;
+    cursor: text;
+    background-color: #E1E8ED;
+    border-radius: 30px;
+}
+.search-icon {
+    width: 1.5vh;
+    object-fit: contain;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+input {
+    background-color: #E1E8ED;
+    width: 80%;
+    font-weight: 500;
+    font-size: 1.7vh;
+    border: none;
+    color: #657786;
+  }
