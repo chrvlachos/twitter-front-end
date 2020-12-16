@@ -4,6 +4,7 @@ import Axios from 'axios';
 
 import Searchbar from './components/Searchbar';
 import Navbar from './components/Navbar.js';
+
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {BiHomeCircle} from 'react-icons/bi';
 import {AiTwotoneStar} from 'react-icons/ai';
